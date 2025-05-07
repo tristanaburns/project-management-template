@@ -1,12 +1,12 @@
-# The Story Teller - Project Documentation
+# Application Software Project Template
 
 ## Project Overview
 
-This directory contains the documentation, planning files, and requirements for The Story Teller project. These documents outline the vision, architecture, and technical specifications for implementing this AI-driven narrative creation system in Next.js.
+This directory contains the documentation, planning files, and requirements for application or software project. These documents outline the vision, architecture, and technical specifications for implementing this Application Software Project.
 
 ## Important Documentation Notice
 
-All documents in this directory are the official guidelines and documentation for The Story Teller project. 
+All documents in this directory are the official guidelines and documentation for The Application Software Project. 
 These documents should be referred to consistently during development to ensure compliance with project requirements and schema-driven design principles.
 
 ## Documentation Guidelines
@@ -24,7 +24,7 @@ When updating these documents, follow these guidelines:
 
 **File:** `project-requirements.md`
 
-This document outlines the comprehensive requirements for The Story Teller, including:
+This document outlines the comprehensive requirements for The Application Software Project, including:
 
 - Functional requirements for narrative content creation
 - Schema-driven approach specifications
