@@ -1,0 +1,445 @@
+{
+  // ==================================================================
+  // CANONICAL COPILOT CONFIGURATION - UNIVERSAL CODING COMPLIANCE
+  // ==================================================================
+  //
+  // PRIMARY INSTRUCTION FILE: .vscode/copilot-instructions.md
+  // COMPLIANCE REQUIRED: SOLID, DRY, Deduplication, Security, Performance
+  //
+  // This settings.json file is optimized for:
+  // 1. Maximum GitHub Copilot integration and performance
+  // 2. Lean, fast VS Code IDE with minimal resource usage
+  // 3. Enforcement of universal coding standards across all languages
+  // 4. Enterprise-grade development environment
+  //
+  // MANDATORY COMPLIANCE CHECKLIST (per copilot-instructions.md):
+  // ✅ SOLID Principles (Single Responsibility, Open/Closed, etc.)
+  // ✅ DRY (Don't Repeat Yourself) - Zero code duplication
+  // ✅ Deduplication - Consolidate similar functionality
+  // ✅ One-change-at-a-time protocol for safety
+  // ✅ Security-first development (input validation, auth, encryption)
+  // ✅ Performance standards (API <500ms, pages <2s, efficient memory)
+  // ✅ Code accuracy and error handling
+  // ✅ Best practices for chosen language/framework
+  // ✅ Comprehensive documentation updates
+  // ✅ README.md and index.json maintenance
+  //
+  // ==================================================================
+  // GITHUB COPILOT CONFIGURATION - CANONICAL MANDATORY COMPLIANCE
+  // ==================================================================
+
+  // GitHub Copilot Instructions - Reference to canonical coding rules
+  // MANDATORY: All Copilot suggestions must comply with .vscode/copilot-instructions.md
+  // Enforces SOLID, DRY, deduplication, security, and performance requirements
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "javascript": true,
+    "typescript": true,
+    "python": true,
+    "java": true,
+    "csharp": true,
+    "go": true,
+    "rust": true,
+    "php": true,
+    "json": true,
+    "jsonc": true,
+    "html": true,
+    "css": true,
+    "scss": true,
+    "vue": true,
+    "react": true
+  },
+  "github.copilot.chat.enabled": true,
+  "github.copilot.chat.welcomeMessage": "always",
+  "github.copilot.advanced": {},
+
+  // Copilot Instructions File Reference & File Associations
+  // Primary Copilot Configuration File: .vscode/copilot-instructions.md
+  // Backup Universal Rules: copilot-instructions-universal-coding-principles.md
+  "files.associations": {
+    "copilot-instructions*.md": "markdown",
+    "*.copilot.md": "markdown",
+    "*.instructions.md": "markdown",
+    "*.env.*": "dotenv",
+    "*.config.js": "javascript",
+    "*.config.ts": "typescript",
+    "tsconfig*.json": "jsonc",
+    "*.d.ts": "typescript",
+    "Dockerfile*": "dockerfile",
+    "docker-compose*.yml": "dockercompose"
+  },
+
+  // ==================================================================
+  // EDITOR CONFIGURATION - PERFORMANCE & PRODUCTIVITY
+  // ==================================================================
+
+  // Editor Settings - Optimized for Performance
+  "editor.fontSize": 14,
+  "editor.fontFamily": "'Cascadia Code', 'Fira Code', 'JetBrains Mono', 'Consolas', 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 120,
+  "editor.rulers": [80, 120],
+  "editor.wordWrap": "bounded",
+  "editor.wordWrapColumn": 120,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.trimAutoWhitespace": true,
+
+  // Code Quality & Formatting
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "explicit",
+    "source.removeUnusedImports": "explicit"
+  },
+
+  // IntelliSense & Suggestions
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "on",
+    "strings": "on"
+  },
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.acceptSuggestionOnCommitCharacter": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabCompletion": "on",
+  "editor.parameterHints.enabled": true,
+  "editor.hover.enabled": true,
+  "editor.hover.delay": 300,
+
+  // Error & Warning Display
+  "problems.decorations.enabled": true,
+  "editor.showUnused": true,
+  "editor.showDeprecated": true,
+
+  // ==================================================================
+  // FILE MANAGEMENT & WORKSPACE
+  // ==================================================================
+
+  // File Explorer
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": true,
+  "explorer.confirmDragAndDrop": true,
+  "explorer.sortOrder": "type",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js, ${capture}.d.ts, ${capture}.js.map",
+    "*.tsx": "${capture}.js, ${capture}.jsx",
+    "*.vue": "${capture}.vue.d.ts",
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml",
+    "README.md": "*.md",
+    "index.json": "*.json"
+  },
+
+  // File Watching & Auto-Save - Performance Optimized
+  "files.autoSave": "onFocusChange",
+  "files.autoSaveDelay": 1000,
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/.git/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/.next/**": true,
+    "**/.cache/**": true,
+    "**/coverage/**": true,
+    "**/.vscode/**": false,
+    "**/target/**": true,
+    "**/bin/**": true,
+    "**/obj/**": true,
+    "**/.pytest_cache/**": true,
+    "**/__pycache__/**": true,
+    "**/vendor/**": true,
+    "**/logs/**": true
+  },
+
+  // Exclude from Search & Files - Enhanced Performance
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.next": true,
+    "**/coverage": true,
+    "**/.git": true,
+    "**/package-lock.json": true,
+    "**/yarn.lock": true,
+    "**/pnpm-lock.yaml": true,
+    "**/target": true,
+    "**/bin": true,
+    "**/obj": true,
+    "**/.pytest_cache": true,
+    "**/__pycache__": true,
+    "**/vendor": true,
+    "**/logs": true
+  },
+
+  // ==================================================================
+  // LANGUAGE-SPECIFIC CONFIGURATION
+  // ==================================================================
+
+  // TypeScript & JavaScript
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "typescript.suggest.autoImports": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.suggest.autoImports": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+
+  // Python
+  "python.defaultInterpreterPath": "python",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": false,
+  "python.formatting.provider": "black",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+
+  // JSON & JSONC
+  "json.schemas": [],
+  "json.format.enable": true,
+
+  // Markdown
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.markEditorSelection": true,
+
+  // ==================================================================
+  // GIT & VERSION CONTROL
+  // ==================================================================
+
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 180,
+  "git.enableCommitSigning": false,
+  "git.rebaseWhenSync": true,
+  "git.showProgress": true,
+  "git.decorations.enabled": true,
+
+  // Source Control
+  "scm.defaultViewMode": "tree",
+  "scm.alwaysShowActions": true,
+  "scm.autoReveal": true,
+
+  // ==================================================================
+  // TERMINAL & INTEGRATED TOOLS
+  // ==================================================================
+
+  // Integrated Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontFamily": "'Cascadia Code', 'Consolas', monospace",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.persistentSessionReviveProcess": "onExit",
+
+  // ==================================================================
+  // EXTENSIONS & FEATURES
+  // ==================================================================
+
+  // IntelliCode
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  // Spell Checker - Enhanced with Coding Standards Terms
+  "cSpell.words": [
+    "initialised",
+    "copilot",
+    "codebase",
+    "deduplication",
+    "SOLID",
+    "CANONICAL",
+    "TypeScript",
+    "JavaScript",
+    "frontend",
+    "backend",
+    "microservices",
+    "refactor",
+    "rollback",
+    "middleware",
+    "serverless",
+    "containerization",
+    "Kubernetes",
+    "DevOps",
+    "APIs",
+    "Liskov",
+    "polymorphism",
+    "encapsulation",
+    "instantiation",
+    "middleware",
+    "monorepo",
+    "linting",
+    "transpilation",
+    "bundling",
+    "minification",
+    "obfuscation",
+    "transpiler",
+    "webpack",
+    "vscode",
+    "intellisense",
+    "debuggable",
+    "performant",
+    "scalable",
+    "maintainable"
+  ],
+
+  // Error Lens (if installed)
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info"],
+  "errorLens.followCursor": "activeLine",
+
+  // Prettier (if installed)
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.wordWrap": "on"
+  },
+
+  // Python Formatting
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+
+  // ==================================================================
+  // PERFORMANCE OPTIMIZATION - LEAN & FAST IDE
+  // ==================================================================
+
+  // Memory & Performance
+  "extensions.autoCheckUpdates": false,
+  "extensions.autoUpdate": false,
+  "telemetry.telemetryLevel": "off",
+  "update.showReleaseNotes": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.enableExperiments": false,
+
+  // Reduce Background Processing
+  "typescript.disableAutomaticTypeAcquisition": false,
+  "typescript.surveys.enabled": false,
+  "typescript.tsc.autoDetect": "on",
+  "npm.autoDetect": "on",
+
+  // Editor Performance - Optimized for Speed
+  "editor.largeFileOptimizations": true,
+  "editor.maxTokenizationLineLength": 20000,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "selection",
+
+  // Search Performance
+  "search.smartCase": true,
+  "search.useGlobalIgnoreFiles": true,
+  "search.useParentIgnoreFiles": true,
+
+  // File System Performance
+  "files.hotExit": "onExitAndWindowClose",
+  "files.enableTrash": true,
+
+  // ==================================================================
+  // UI & WORKBENCH CONFIGURATION
+  // ==================================================================
+
+  // Workbench Appearance
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "vs-seti",
+  "workbench.startupEditor": "welcomePageInEmptyWorkbench",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.closeOnFileDelete": true,
+
+  // Activity Bar & Sidebar
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "workbench.panel.defaultLocation": "bottom",
+
+  // Breadcrumbs
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.icons": true,
+  "breadcrumbs.showArrays": true,
+  "breadcrumbs.showClasses": true,
+  "breadcrumbs.showFunctions": true,
+
+  // ==================================================================
+  // DEBUGGING & TESTING
+  // ==================================================================
+
+  // Debug Configuration
+  "debug.console.fontSize": 13,
+  "debug.console.fontFamily": "'Cascadia Code', 'Consolas', monospace",
+  "debug.openDebug": "openOnDebugBreak",
+  "debug.inlineValues": "auto",
+  "debug.showBreakpointsInOverviewRuler": true,
+
+  // Testing
+  "testing.automaticallyOpenPeekView": "failureInVisibleDocument",
+  "testing.defaultGutterClickAction": "run",
+
+  // ==================================================================
+  // SECURITY & TRUST
+  // ==================================================================
+
+  // Workspace Trust
+  "security.workspace.trust.untrustedFiles": "prompt",
+  "security.workspace.trust.banner": "always",
+  "security.workspace.trust.emptyWindow": true,
+
+  // ==================================================================
+  // CUSTOM WORKFLOW OPTIMIZATIONS
+  // ==================================================================
+
+  // ==================================================================
+  // COPILOT WORKFLOW INTEGRATION
+  // ==================================================================
+
+  // Quick Access to Copilot Instructions (Ctrl+Shift+P)
+  // Commands: "Open Copilot Instructions", "View Coding Standards"
+  "workbench.commandPalette.experimental.suggestCommands": true,
+
+  // Auto-close brackets and quotes - Enhanced for coding efficiency
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.autoSurround": "languageDefined",
+  "editor.autoClosingDelete": "always",
+  "editor.autoClosingOvertype": "always",
+
+  // Smooth scrolling
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+
+  // Zoom
+  "window.zoomLevel": 0,
+  "editor.mouseWheelZoom": true
+}
